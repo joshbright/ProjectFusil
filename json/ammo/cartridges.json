@@ -1,0 +1,26 @@
+{
+    "Name ": "Cartridge",
+    "description": "Ammunition used",
+    "type": "object",
+    "properties":
+    {
+       "name":
+       {
+          "description": "Name of Cartridge",
+          "type": "string",
+          "value": "Cartrige"
+       },
+       "caliber":
+       {
+          "description": "Diameter of bullet used in cartridge",
+          "type": "number",
+          "value": ".308"
+       },
+       "type":
+       {
+          "description": "Ammuntition is classified to be used in/what firearms/role",
+          "type": "string",
+          "value": "rifle"
+       }
+    }
+ }

@@ -1,0 +1,30 @@
+{
+    "title": "LoadData",
+    "description": "Load Data used for particular calbier",
+    "type": "object",
+    "properties":
+    {
+       "bullet":
+       {
+          "manufacturer" : "Sierra",
+          "description": "Bullet used for load data",
+          "diameter": ".308",
+          "profile": "FMJ",
+          "weight": "150"
+       },
+       "powder":
+       {
+          "manufacturer" : "Hodgdon",
+          "description": "Powder used in load data",
+          "powderType": "Stick",
+          "powdercharge": "43.5",
+          "compressedLoad": "false"
+       },
+       "Primer":
+       {
+           "manufacturer" : "CCI",
+           "model" : "400",
+           "primerType": "Large rifle",
+       }
+    }, 
+ }
